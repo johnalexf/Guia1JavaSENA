@@ -18,7 +18,8 @@ public class Guia1Java {
         // TODO code application logic here
        //Boletin1Ejercicio1.solucion();
        //Boletin1Ejercicio2.solucion();
-       Boletin1Ejercicio3.solucion();
+       //Boletin1Ejercicio3.solucion();
+       Boletin1Ejercicio4.solucion();
     }
     
 }
