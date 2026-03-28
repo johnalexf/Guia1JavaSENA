@@ -15,6 +15,7 @@ import java.io.InputStreamReader;
  */
 public class Entrada {
     static String Inicializar(){
+        
         String lectura = "";
         InputStreamReader conversor = new InputStreamReader(System.in);
         BufferedReader capturarDatosTeclado = new BufferedReader(conversor);
