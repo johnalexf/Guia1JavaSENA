@@ -24,7 +24,8 @@ public class Guia1Java {
        //Boletin1Ejercicio6.solucion();
        //Boletin1Ejercicio7.solucion();
        //Boletin1Ejercicio8.solucion();
-       Boletin1Ejercicio9.solucion();
+       //Boletin1Ejercicio9.solucion();
+       Boletin1Ejercicio10.solucion();
     }
     
 }
