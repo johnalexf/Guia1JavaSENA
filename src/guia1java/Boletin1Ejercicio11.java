@@ -12,18 +12,29 @@ package guia1java;
 public class Boletin1Ejercicio11 {
     
     public static void solucion(){
-        System.out.println("Programa para pedir un numero entre 0 y 9.9999 y decir cuantas cifras tiene");
+        System.out.println("Programa para pedir un numero entre 0 y 99999 y decir cuantas cifras tiene");
         
-        double numero=0;
-        
-        
-        System.out.print("Digite por favor un numero entre 0 y 9.99999  =  ");
-        numero = Entrada.real();
+        int numero=0 ;
+        int divisionExacta=0;
+        System.out.print("Digite por favor un numero entre 0 y 99.999  =  ");
+        numero = Entrada.entero();
          
-        if(numero > 0 && numero < 10){
-                
+        if(numero > 0 && numero < 100000){
+                for( int i=0; i < 6 ; i++ ){
+                    divisionExacta = (int) (numero / Math.pow(10, i));
+                    //System.out.println("division exacta = " +  divisionExacta);
+                    if(divisionExacta > 0){
+                        if(divisionExacta < 10){
+                            System.out.printf("El numero %.2f tiene %d cifras enteras %n", numero, i+1);
+                            break;
+                        }
+                    }else{
+                        System.out.println("El numero tiene cero cifras enteras");
+                        break;
+                    }            
+                 }
         }else{
-            System.out.println("El numero no esta dentro del rango (0,10)");
+            System.out.println("El numero no esta dentro del rango (0,100.000)");
         }
         
         
