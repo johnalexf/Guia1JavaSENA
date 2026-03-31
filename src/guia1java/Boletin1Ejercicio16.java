@@ -51,7 +51,7 @@ public class Boletin1Ejercicio16 {
                 
             default:
                 mesValido = false;
-                break;
+                break; 
         }
         
          añoValido = (año > 0);
@@ -88,12 +88,9 @@ public class Boletin1Ejercicio16 {
     
     public static void pedirDatosD(){
     
-        BufferedReader leer = new BufferedReader( new InputStreamReader(System.in));
+       // BufferedReader leer = new BufferedReader( new InputStreamReader(System.in));
         
-        String lectura = leer.readLine();
-        
-        
-        
+       // String lectura = leer.readLine();
         
     }
     
