@@ -30,7 +30,8 @@ public class Guia1Java {
        //Boletin1Ejercicio12.solucion2();
        //Boletin1Ejercicio13.solucion();
        //Boletin1Ejercicio14.solucion();
-       Boletin1Ejercicio15.solucion2();
+       //Boletin1Ejercicio15.solucion2();
+       Boletin1Ejercicio16.solucion();
     }
     
 }
